@@ -8,21 +8,21 @@ Stack: Django, Django REST Framework, SQLITE
 Base URL (dev): http://localhost:8000
 API Prefix: musiclytics/analytics/api/v1
 
-# steps to setup backend
+## steps to setup backend
 1)git clone then cd <vivpro>
 
 # create virtualenv
 2)python -m venv .venv
-# macOS/Linux
+### macOS/Linux
 source .venv/bin/activate
-# Windows (PowerShell)
+### Windows (PowerShell)
 .venv\Scripts\Activate.ps1
 
-# install dependencies
+### install dependencies
 3)pip install -r requirements.txt
 
 
-##Run Server
+### Run Server
 4) python manage.py runserver
 
 
