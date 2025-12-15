@@ -9,7 +9,7 @@ Base URL (dev): http://localhost:8000
 API Prefix: musiclytics/analytics/api/v1
 
 ## steps to setup backend
-1)git clone then cd <vivpro>
+1) git clone https://github.com/akshayshinde97/vivpro.git  then cd vivpro
 
 # create virtualenv
 2)python -m venv .venv
