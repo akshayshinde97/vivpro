@@ -26,9 +26,8 @@ class Song(models.Model):
     num_bars = models.IntegerField()
     num_sections = models.IntegerField()
     num_segments = models.IntegerField()
-
-    # "class" is a Python keyword, so we give it a safe field name
     song_class = models.IntegerField(db_column="class")
+    song_rating = models.IntegerField()
 
     class Meta:
         managed = False
