@@ -26,7 +26,8 @@ source .venv/bin/activate
 4) python manage.py runserver
 
 
-##API CURLS
+## API CURLS
+
 Paginated api GET:-  curl --location --request GET 'http://127.0.0.1:8000/musiclytics/analytics/api/v1/songs/ 
 Serach song by name :- curl --location --request GET 'http://127.0.0.1:8000/musiclytics/analytics/api/v1/songs/?page=1&query=3AM'
 Post song rating :- curl --location --request POST 'http://127.0.0.1:8000/musiclytics/analytics/api/v1/rate_song/' \
